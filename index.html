@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachoeira do Laranjal - Jacrazinho PR</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f8ff;
+        color: #333;
+    }
+
+    header {
+        background-color: #c79d15;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1, h2 {
+        margin: 20px 0;
+    }
+
+    p {
+        line-height: 1.6;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+    }
+
+    .gallery img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    iframe {
+        margin: 20px 0;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+        background-color: #c79d15;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Cachoeira do Laranjal</h1>
+    <nav>
+        <ul>
+            <li><a href="site.html">Início</a></li>
+            <li><a href="site2.html">Detalhes</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Bem-vindo à Cachoeira do Laranjal</h2>
+        <p>A Cachoeira do Laranjal é um dos pontos turísticos mais belos de Jacarezinho, oferecendo um cenário perfeito para os amantes da natureza e aventura.</p>
+    </section>
+
+    <section class="gallery">
+        <img src="cachoeira1.jpg" alt="Cachoeira do Laranjal">
+        <img src="cachoeira2.jpg" alt="Vista da Cachoeira">
+        <img src="cachoeira3.jpg" alt="Cachoeira em Jacarezinho">
+        <img src="cachoeira4.jpg" alt="Cachoeira do Laranjal no Verão">
+    </section>
+
+    <section>
+        <h2>Conheça melhor a Cachoeira!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6TcD1gtMAiI?si=S2PziSU-xUvJvdM_" title="YouTube video player" allowfullscreen></iframe>
+    </section>
+</main>
+
+<footer id="contato">
+    <p>Entre em contato: cachoeiralaranjal@gmail.com</p>
+</footer>
+</body>
+</html>
